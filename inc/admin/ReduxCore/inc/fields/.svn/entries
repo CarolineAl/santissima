@@ -1,0 +1,133 @@
+10
+
+dir
+8
+svn://dividiae.com.br/dividiae/santissima/trunk/wp-content/themes/porto/inc/admin/ReduxCore/inc/fields
+svn://dividiae.com.br/dividiae/santissima
+
+
+
+2016-03-31T18:24:49.668069Z
+5
+gabriel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5538b88a-4571-44ca-8fa5-339d53bbae06
+
+select
+dir
+
+media
+dir
+
+background
+dir
+
+select_image
+dir
+
+image_select
+dir
+
+spacing
+dir
+
+text
+dir
+
+checkbox
+dir
+
+color_gradient
+dir
+
+info
+dir
+
+link_color
+dir
+
+radio
+dir
+
+multi_text
+dir
+
+gallery
+dir
+
+typography
+dir
+
+sortable
+dir
+
+border
+dir
+
+date
+dir
+
+textarea
+dir
+
+spinner
+dir
+
+sorter
+dir
+
+color
+dir
+
+slider
+dir
+
+slides
+dir
+
+button_set
+dir
+
+editor
+dir
+
+raw
+dir
+
+palette
+dir
+
+ace_editor
+dir
+
+switch
+dir
+
+password
+dir
+
+section
+dir
+
+divide
+dir
+
+dimensions
+dir
+
+color_rgba
+dir
+

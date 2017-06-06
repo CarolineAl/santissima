@@ -1,0 +1,7 @@
+.check-success{
+	border: 1px solid #4ECA80 !important;
+}
+
+.check-error{
+	border: 1px solid #F00 !important;
+}

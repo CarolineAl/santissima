@@ -1,0 +1,8 @@
+
+@media (max-width: 480px){
+
+	#content .yit-wcan-container .products.grid li.product{
+		width: 50% !important;
+	}
+
+}

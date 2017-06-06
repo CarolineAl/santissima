@@ -1,0 +1,13 @@
+/*Lucas Lellis*/
+
+@media (max-width: 480px){
+
+	.product-summary-wrap .product-image-slider.owl-carousel .img-thumbnail{
+	width: 80%;
+	border: 1px solid #f0f0f0;
+	display: block !important;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+}

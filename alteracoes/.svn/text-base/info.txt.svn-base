@@ -1,0 +1,26 @@
+﻿/wp-content/themes/porto/style.css
+
+/wp-content/plugins/woocommerce/includes/wc-template-hooks.php
+ 
+(Alteração na ordem dos woocommerce_single_product_summary e comment (//) na linha 130 (woocommerce_output_product_data_tabs)
+
+/wp-content/themes/porto/woocommerce/single-product/meta.php
+
+/wp-content/themes/porto/woocommerce/single-product/meta_cat.php
+(Arquivo não existia e foi criado)
+
+/wp-content/themes/porto/woocommerce/single-product/description.php
+(Arquivo não existia e foi criado)
+
+
+/wp-content/plugins/woocommerce/includes/wc-template-functions.php
+
+/wp-content/themes/porto/css/theme_shop_1.css
+
+/wp-content/themes/porto/css/skin_1.css
+
+/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js
+
+/wp-content/plugins/wysija-newsletters/tools/templates/form/web/widgets/input.html
+
+/wp-content/plugins/wysija-newsletters/tools/templates/form/web/widgets/submit.html

@@ -1,0 +1,38 @@
+<p class="wysija-paragraph">
+    {if ! #params.label_within}<label>{#params.label}{if #params.required} <span class="wysija-required">*</span>{/if}</label>{/if}
+    {if !#params.lines || #params.lines == 1}
+    	<input type="text" name="{#field_prefix}[{#field}]" class="wysija-input {$validation}" id="verifica-email-news" title="{#params.label|html_value}" {if #params.label_within}placeholder="{#params.label|html_value}"{/if} value="{if #value}{#value|html_value}{/if}" />
+    {/if}
+    {if #params.lines > 1}
+    	<textarea name="" class="wysija-textarea {$validation}"></textarea>
+    {/if}
+    {if ! $preview}
+    <span class="abs-req">
+        <input type="text" name="{#field_prefix}[abs][{#field}]" class="wysija-input validated[abs][{#field}]" value="" />
+    </span>
+    
+    {/if}
+</p>
+
+<script type="text/javascript">
+    
+   jQuery(document).ready(function(){
+   jQuery("#verifica-email-news").change(function(){
+      var email = jQuery("#verifica-email-news").val();
+      if(email != "")
+      {
+         var filtro = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+         if(filtro.test(email))
+         {
+       
+       return true;
+         } else {
+           jQuery(".feedback-newsletter p").html("Digite um e-mail válido!");
+           return false;
+         }
+      } else {
+     jQuery(".feedback-newsletter p").html("Digite um e-mail!");
+      }
+   });
+});
+</script>
